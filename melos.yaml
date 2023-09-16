@@ -147,7 +147,6 @@ scripts:
   test:with-lcov-coverage:all:
     run: |
       melos run test:with-lcov-coverage --no-select && \
-      melos run test:combine-coverage
     description: Run Flutter tests for all packages and generate a combined lcov coverage report
 
   test:with-html-coverage:
