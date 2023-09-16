@@ -1,7 +1,7 @@
 name: flutter_cicd
 
 packages:
-  - lib
+  - packages/*
   
 
 scripts:
